@@ -7,6 +7,7 @@ namespace TechJobsOO
         private static int nextId = 1;
         public string Value { get; set; }
 
+
         public Employer()
         {
             Id = nextId;
@@ -33,5 +34,7 @@ namespace TechJobsOO
         {
             return Value;
         }
+
+
     }
 }
